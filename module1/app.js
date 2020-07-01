@@ -10,8 +10,10 @@
 		$scope.msg = '';
 		$scope.fontStyle = {};
 		$scope.boxStyle = {};
+		$scope.cookieCost = .45;
 
 		$scope.checkItems = function () {
+			
 			console.log ('check Items');
 			console.log ($scope.list);
 			if($scope.list !== '') {
